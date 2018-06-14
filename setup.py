@@ -41,7 +41,7 @@ setup(
         'gym',
         'h5py',
         'numpy',
-        'requests',
+        'requests': ['requests>=2.18.0'],
         'scipy',
         'sympy',
         'six',
