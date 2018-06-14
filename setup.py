@@ -40,14 +40,14 @@ setup(
         'gunicorn',
         'gym',
         'h5py',
-        'numpy',
-        'requests': ['requests>=2.18.0'],
+        'numpy',        
         'scipy',
         'sympy',
         'six',
     ],
     extras_require={
         'tensorflow': ['tensorflow>=1.5.0'],
+        'requests': ['requests>=2.18.0'],
         'tensorflow_gpu': ['tensorflow-gpu>=1.5.0'],
         'tests': [
             'pytest',
